@@ -10,8 +10,7 @@ services:
     build: ./frontend
     depends_on: 
       - api
-    stdin_open: true
-    tty: true
+
     ports:
       - "3000:3000"
 
