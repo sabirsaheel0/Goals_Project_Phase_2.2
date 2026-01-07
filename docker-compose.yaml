@@ -19,8 +19,8 @@ services:
     container_name: mongodb
     restart: unless-stopped
     environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_ROOT_USERNAME: sabir
+      MONGO_INITDB_ROOT_PASSWORD: sabir123
       MONGO_INITDB_DATABASE: appdb
 
 
